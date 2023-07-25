@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
-import css from './profile.module.css' // імпорт стилів
-//створення компоненту  = ({деструктуризація пропсів})
+import css from './profile.module.css' 
 
 const Profile = ({ username, tag, location, avatar, stats }) => {
     const { followers, likes, views } = stats;
